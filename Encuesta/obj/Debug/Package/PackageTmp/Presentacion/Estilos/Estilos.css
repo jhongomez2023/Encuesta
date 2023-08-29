@@ -1,0 +1,118 @@
+﻿* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #ddd;
+}
+
+#contenedor {
+    width: 80%;
+    margin: auto;
+}
+
+main {
+    width: 100%;
+    height: 20%;
+    background-color: #ffffff ;
+}
+
+header nav {
+    text-align: center;
+    background-color: #a864ac;
+}
+
+header nav ul li {
+        display: inline-block;
+        padding: 10px;
+}
+
+header nav ul li a {
+        text-decoration: none;
+        /*font-family: fantasy;*/
+        font-size: 20px;
+        color: white;
+        font-weight: bold;
+}
+
+    header nav ul li a:hover {
+        color: #c7d422;
+    }
+section {
+    float:none;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    margin-top:5px;
+    margin-bottom: 5px;
+}
+
+footer {
+    clear: both;
+    width: 100%;
+    height: 20%;
+    background-color: #a864ac;
+    text-align: center;
+    color: white;
+    line-height: 50px;
+    font-style: italic;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+}
+
+.btm {
+    padding: 4px 4px 4px 45px;
+    border: none;
+    color: black;
+    text-decoration: none;
+    background: url(../Imagenes/save_as_22027.png) no-repeat scroll 5px center;
+    border-bottom: 1px solid #666;
+    border-right: 1px solid #666;
+    cursor: pointer;
+}
+.btmGenerar {
+    padding: 4px 4px 4px 45px;
+    border: none;
+    color: black;
+    text-decoration: none;
+    background: url(../Imagenes/xmag_search_find_export_locate_5984.png) no-repeat scroll 5px center;
+    border-bottom: 1px solid #666;
+    border-right: 1px solid #666;
+    cursor: pointer;
+}
+
+.btmExportar {
+    padding: 4px 4px 4px 45px;
+    border: none;
+    color: black;
+    text-decoration: none;
+    background: url('../Imagenes/Excel_2013_23480 (1).png') no-repeat scroll 5px center;
+    border-bottom: 1px solid #666;
+    border-right: 1px solid #666;
+    cursor: pointer;
+}
+
+.btmImprimir {
+    padding: 4px 4px 4px 45px;
+    border: none;
+    color: black;
+    text-decoration: none;
+    background: url('../Imagenes/icomoon_e61e(6)_32.png') no-repeat scroll 5px center;
+    border-bottom: 1px solid #666;
+    border-right: 1px solid #666;
+    cursor: pointer;
+}
+
+.bordesdivGrafica {
+    border-color: #041ded;
+    border-width: 1px;
+    border-style: outset;
+    width: 80%;
+    height: 400px;
+}

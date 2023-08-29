@@ -1,0 +1,58 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="SitePaginPrincipal.master.cs" Inherits="Encuesta.Presentacion.SitePaginPrincipal" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server" >
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Encuestas App</title>
+    <link href="Estilos/Estilos.css" rel="stylesheet" runat="server" />
+</head>
+<body>
+    <div id="contenedor">
+        <main>
+          <div class="wrapper">
+              <div>
+                <img src="Imagenes/LOGO.png" style="height: 91px; width: 369px" />  
+
+              </div>
+
+              <div>
+               
+<h1 style="color:#c7d422" >ENCUESTAS APP</h1>
+              </div>
+
+          </div>
+        </main>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="FrmEjecucionEncuesta.aspx">Encuestas</a></li>
+                    <li><a href="FrmExportarResultadoEncuestas.aspx">Reportes</a></li>
+                    <li><a href="FrmGraficas.aspx">Graficas</a></li>
+                    <li><a href="FrmEncuesta.aspx">Configuracion</a></li>
+
+
+
+                </ul>
+            </nav>
+        </header>
+        <section>
+            <form id="form1" runat="server">
+                <div>
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+                </div>
+            </form>
+        </section>
+       <%-- <aside>
+            
+        </aside>--%>
+        <footer>
+            &copy; Encuestas - todos los derechos reservados 2022
+        </footer>
+
+    </div>
+
+</body>
+</html>
